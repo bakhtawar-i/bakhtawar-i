@@ -50,10 +50,6 @@ Agentic AI system for natural language code execution and automated data analysi
 **MLOps:** FastAPI, Docker, CI/CD, ONNX, Google Cloud Platform  
 **Tools:** Pandas, NumPy, Matplotlib, Git, Linux, ROS, Gazebo
 
-## 📊 GitHub Stats
-
-![Bakhtawar's GitHub stats](https://github-readme-stats.vercel.app/api?username=bk-12346&show_icons=true&theme=radical)
-
 ## 📝 Publications
 
 **[Cost-effective SMD Detection on PCBs](https://iopscience.iop.org/article/10.1088/1757-899X/899/1/012007)**  
