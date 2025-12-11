@@ -60,7 +60,7 @@ Agentic AI system for natural language code execution and automated data analysi
 
 ## 💼 Currently
 
-🔍 **Open to ML Engineering opportunities** in UAE 🇦🇪, Saudi Arabia 🇸🇦, and Qatar 🇶🇦
+🔍 **Open to ML Engineering opportunities**
 
 Building intelligent systems that combine computer vision, NLP, and recommendation engines to create real-world impact.
 
