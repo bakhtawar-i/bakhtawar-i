@@ -1,75 +1,125 @@
 # Hi, I'm Bakhtawar 👋
 
-**AI/ML Engineer** building production systems that solve real problems | Dubai 🇦🇪
-
-## 🎯 What I Do
-
-I specialize in taking machine learning from research to production—designing, building, and deploying end-to-end ML systems.
-
-**Focus Areas:**
-- 👁️ Computer Vision & Real-time Object Detection
-- 🎯 Recommendation Systems & Personalization
-- 🤖 Conversational AI & RAG Systems
-- ⚡ MLOps, API Development & Deployment Optimization
-
-## 🔬 Recent Work
-
-**MS Thesis (2025):** RL-Based Collision Avoidance for UAVs in Earthquake Environments
-- 40% reduction in collision rates using adaptive RL navigation
-- Real-time perception with YOLO + ROS/Gazebo
-- 83% autonomous task success rate
-
-**ML Engineering Internship @ Khiladi:**
-- Built real-time computer vision system with <30ms latency
-- Improved classification accuracy by 25% using ensemble methods
-- Deployed containerized FastAPI services with CI/CD on GCP
-
-## 💻 Featured Projects
-
-### 🏎️ [F1 Race Winner Predictor](https://github.com/bk-12346/2025-Grand-Prix-Winner-Predictor)
-Machine learning model achieving 82.4% accuracy in predicting F1 race winners using historical data and advanced feature engineering.
-
-### 🤖 [RAG-Powered Conversational AI](https://github.com/bk-12346/RAG-Powered-Conversational-AI-Agent)
-Multi-agent orchestration system using LangChain/LangGraph for contextual reasoning and retrieval-augmented generation.
-
-### 🎫 [Multi-Label Ticket Classifier](https://github.com/bk-12346/Multi-Label-Customer-Support-Ticket-Classifier)
-NLP-based automated customer support ticket classification using BERT and multi-label learning.
-
-### 🌾 [SoilSense Crop Recommender](https://github.com/bk-12346/SoilSense-Crop-Recommener)
-ML solution for crop yield optimization based on soil chemical composition analysis.
-
-### 💬 [LLM Code Interpreter Agent](https://github.com/bk-12346/LLM-Powered-Code-Interpreter-Agent)
-Agentic AI system for natural language code execution and automated data analysis using LangChain.
-
-## 🛠️ Tech Stack
-
-**ML/DL:** PyTorch, TensorFlow, Scikit-learn, XGBoost  
-**Computer Vision:** YOLO, OpenCV, Object Detection  
-**NLP & Agentic AI:** BERT, LangChain, LangGraph, RAG  
-**RecSys:** Collaborative Filtering, Matrix Factorization, FAISS, Neural Collaborative Filtering  
-**MLOps:** FastAPI, Docker, CI/CD, ONNX, Google Cloud Platform  
-**Tools:** Pandas, NumPy, Matplotlib, Git, Linux, ROS, Gazebo
-
-## 📝 Publications
-
-**[Cost-effective SMD Detection on PCBs](https://iopscience.iop.org/article/10.1088/1757-899X/899/1/012007)**  
-*Proceedings of 3rd Pak-Turk International Conference on Emerging Technologies, 2020*
-
-**UAV Collision Avoidance Using Reinforcement Learning** *(Under Review)*  
-*Manuscript submitted to peer-reviewed journal*
-
-## 💼 Currently
-
-🔍 **Open to ML Engineering opportunities**
-
-Building intelligent systems that combine computer vision, NLP, and recommendation engines to create real-world impact.
-
-## 📫 Let's Connect
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bakhtawar-iftikhar/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://bakift.com/)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:bkifti98@gmail.com)
+**Machine Learning Engineer** building production-grade AI systems across ML, LLMs, and real-time inference | Dubai 🇦🇪 (Open to Canada)
 
 ---
 
-*"The goal is to turn data into information, and information into insight." — Carly Fiorina*
+## 🎯 What I Do
+
+I design and deploy end-to-end machine learning systems—from experimentation and modeling to scalable production deployment.
+
+My work focuses on:
+
+* **Applied Machine Learning** (tabular, NLP, CV)
+* **LLM Systems & RAG Pipelines**
+* **Real-time Inference & MLOps**
+
+---
+
+## 🔬 Selected Experience
+
+**🧠 Reinforcement Learning Research (MSc Thesis, 2025)**
+*Action Space Design and Policy Optimization for UAV Collision Avoidance in Post-Earthquake Environments*
+
+* Designed a **controlled factorial experiment (18 conditions)** evaluating action space representations (discrete, continuous, hybrid) across PPO and SAC
+* Conducted **statistical analysis (ANOVA + post-hoc testing)** to isolate effects of action space and optimization algorithm
+* Identified **algorithm–representation interaction effects**, with SAC failing under hybrid action spaces due to entropy instability
+* Benchmarked performance against **A* path planning baseline** using path efficiency and trajectory smoothness metrics
+* Built full simulation pipeline using **Unity ML-Agents, ROS/Gazebo, and physics-based UAV dynamics**
+
+---
+
+**⚙️ Machine Learning Engineer — Khiladi**
+
+* Built **real-time computer vision inference system (<30ms latency)**
+* Improved classification performance by **25% using ensemble methods and cross-validation**
+* Deployed scalable ML services using **FastAPI, Docker, and CI/CD on GCP**
+
+---
+
+## 🚀 Featured Work
+
+### 🧘‍♂️ Sakeenah — AI Journaling Platform
+
+https://sakeenah-journal.vercel.app/
+
+* Founder & developer of a **conversational AI journaling system** with emotion-aware responses
+* Designed **LLM pipeline with structured prompting, memory handling, and safety constraints**
+* Implemented **context-aware interaction system** adapting responses based on user inputs and journaling history
+* Deployed live system with **20+ users and ongoing iterative improvements**
+
+---
+
+### 📄 Lexis — Document Intelligence System
+
+RAG-based system for querying structured policy documents
+
+* Built **multi-agent workflow (LangGraph)** with tool orchestration (search, summarize, compare)
+* Implemented **traceability and observability (LangSmith)**
+* Designed for **high-stakes retrieval environments**
+
+---
+
+### 🏎️ F1 Race Outcome Predictor
+
+* Built ML system achieving **82.4% accuracy** using feature engineering and ensemble models
+* Focused on **model comparison, evaluation rigor, and data-driven feature design**
+
+---
+
+### 🎫 Multi-Label Support Ticket Classifier
+
+* Developed **BERT-based multi-label classification system**
+* Improved automated ticket routing performance over baseline models
+
+---
+
+## 🛠️ Tech Stack
+
+**Machine Learning & Modeling:**
+PyTorch, Scikit-learn, XGBoost, TensorFlow
+
+**NLP & LLM Systems:**
+BERT, RAG, LangChain, LangGraph, LangSmith
+
+**Computer Vision:**
+YOLO, OpenCV
+
+**MLOps & Experimentation:**
+MLflow, Weights & Biases, FastAPI, Docker, CI/CD, ONNX, Google Cloud Platform
+
+**Data & Analytics:**
+Pandas, NumPy, Matplotlib
+
+**BI & Visualization:**
+Power BI, Tableau
+
+**Developer & AI Tools:**
+Git, REST APIs, ROS2, Gazebo, Cursor, Claude Code
+
+---
+
+## 📝 Publications
+
+* **Action Space Design and Policy Optimization for Reinforcement Learning Based UAV Collision Avoidance in Earthquake Environments** *(Under Review)*
+* **Cost-effective SMD Detection on PCBs (2020)**
+
+---
+
+## 🎯 Currently
+
+* Building **production ML + LLM systems**
+* Expanding into **ML system design and experiment-driven modeling**
+* Open to **Machine Learning Engineer roles (Canada 🇨🇦)**
+
+---
+
+## 📫 Connect
+
+* LinkedIn: https://www.linkedin.com/in/bakhtawar-iftikhar/
+* Portfolio: https://bakhtawar-iftikhar.base44.app/
+* Email: [bkifti98@gmail.com](mailto:bkifti98@gmail.com)
+
+---
+
+> Focused on building systems that move beyond prototypes into real-world impact.
