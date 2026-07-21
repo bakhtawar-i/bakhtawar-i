@@ -1,6 +1,6 @@
 # Hi, I'm Bakhtawar 👋
 
-**Machine Learning Engineer** building production-grade AI systems across ML, LLMs, and real-time inference | Dubai 🇦🇪 (Open to Canada)
+**Machine Learning Engineer** building production-grade AI systems across ML, LLMs, and real-time inference | Dubai 🇦🇪 (Open to Relocation)
 
 ---
 
