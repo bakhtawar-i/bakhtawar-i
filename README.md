@@ -1,125 +1,74 @@
 # Hi, I'm Bakhtawar 👋
 
-**Machine Learning Engineer** building production-grade AI systems across ML, LLMs, and real-time inference | Dubai 🇦🇪 (Open to Relocation)
+**ML Engineer → PhD-bound researcher** working on reliability and generalization in multimodal and reinforcement learning systems
 
 ---
 
 ## 🎯 What I Do
 
-I design and deploy end-to-end machine learning systems—from experimentation and modeling to scalable production deployment.
+I diagnose why multimodal and RL systems fail silently — grounding failures, distribution shift, miscalibrated confidence — and build the tools to catch it before deployment. My background is in shipping production ML systems; my current focus is applying the same rigor to understanding *why* they break.
 
-My work focuses on:
-
-* **Applied Machine Learning** (tabular, NLP, CV)
-* **LLM Systems & RAG Pipelines**
-* **Real-time Inference & MLOps**
+- **VLA & Agentic System Diagnostics** (grounding, generalization, failure analysis)
+- **Reinforcement Learning** (policy optimization, action space design)
+- **Applied ML in Production** (LLM systems, RAG pipelines, real-time inference)
 
 ---
 
-## 🔬 Selected Experience
+## 🔬 Research
 
-**🧠 Reinforcement Learning Research (MSc Thesis, 2025)**
-*Action Space Design and Policy Optimization for UAV Collision Avoidance in Post-Earthquake Environments*
+**vla-grounding-probe**
+Mechanistic layer-wise diagnostic of a vision-language-action model on manipulation tasks. Found language embedding similarity running inverse to grounded conditioning predictions in a majority of tested tasks — validated against CLIP-family affirmation bias literature.
 
-* Designed a **controlled factorial experiment (18 conditions)** evaluating action space representations (discrete, continuous, hybrid) across PPO and SAC
-* Conducted **statistical analysis (ANOVA + post-hoc testing)** to isolate effects of action space and optimization algorithm
-* Identified **algorithm–representation interaction effects**, with SAC failing under hybrid action spaces due to entropy instability
-* Benchmarked performance against **A* path planning baseline** using path efficiency and trajectory smoothness metrics
-* Built full simulation pipeline using **Unity ML-Agents, ROS/Gazebo, and physics-based UAV dynamics**
+**eeg-seizure-fusion-probe** *(in progress)*
+Extending the same diagnostic methodology to clinical AI: EEG seizure detection using LaBraM fine-tuning and metadata fusion diagnostics.
 
----
+**Action Space Design and Policy Optimisation for RL-Based UAV Collision Avoidance** *(MSc thesis, under review — Elsevier)*
+Controlled factorial study (PPO vs. SAC × 3 action spaces × 3 reward densities, 54 runs) diagnosing SAC's catastrophic failure on hybrid action spaces, traced to its entropy auto-tuning mechanism.
 
-**⚙️ Machine Learning Engineer — Khiladi**
-
-* Built **real-time computer vision inference system (<30ms latency)**
-* Improved classification performance by **25% using ensemble methods and cross-validation**
-* Deployed scalable ML services using **FastAPI, Docker, and CI/CD on GCP**
+**Multimodal Agentic RL System**
+FiLM vs. concat fusion comparison in MiniGrid — naive concatenation caused language to be ignored (55% instruction-following), FiLM improved to 67–90%, but 0% on novel unseen instructions. Confidence scores found uninformative.
 
 ---
 
-## 🚀 Featured Work
+## 🚀 Applied Work
 
-### 🧘‍♂️ Sakeenah — AI Journaling Platform
+**Lexis** — Production-grade AI document intelligence platform combining a full RAG pipeline, conversational research agent, and policy document assistant for government/enterprise use.
 
-https://sakeenah-journal.vercel.app/
+**Sakeenah** — AI-assisted journaling platform (founder), live at [sakeenah-journal.vercel.app](https://sakeenah-journal.vercel.app/), ~20 active users.
 
-* Founder & developer of a **conversational AI journaling system** with emotion-aware responses
-* Designed **LLM pipeline with structured prompting, memory handling, and safety constraints**
-* Implemented **context-aware interaction system** adapting responses based on user inputs and journaling history
-* Deployed live system with **20+ users and ongoing iterative improvements**
-
----
-
-### 📄 Lexis — Document Intelligence System
-
-RAG-based system for querying structured policy documents
-
-* Built **multi-agent workflow (LangGraph)** with tool orchestration (search, summarize, compare)
-* Implemented **traceability and observability (LangSmith)**
-* Designed for **high-stakes retrieval environments**
-
----
-
-### 🏎️ F1 Race Outcome Predictor
-
-* Built ML system achieving **82.4% accuracy** using feature engineering and ensemble models
-* Focused on **model comparison, evaluation rigor, and data-driven feature design**
-
----
-
-### 🎫 Multi-Label Support Ticket Classifier
-
-* Developed **BERT-based multi-label classification system**
-* Improved automated ticket routing performance over baseline models
+**QuantVol** — Time-series forecasting system for equity volatility, benchmarking econometric models against ML/deep learning approaches.
 
 ---
 
 ## 🛠️ Tech Stack
 
-**Machine Learning & Modeling:**
-PyTorch, Scikit-learn, XGBoost, TensorFlow
-
-**NLP & LLM Systems:**
-BERT, RAG, LangChain, LangGraph, LangSmith
-
-**Computer Vision:**
-YOLO, OpenCV
-
-**MLOps & Experimentation:**
-MLflow, Weights & Biases, FastAPI, Docker, CI/CD, ONNX, Google Cloud Platform
-
-**Data & Analytics:**
-Pandas, NumPy, Matplotlib
-
-**BI & Visualization:**
-Power BI, Tableau
-
-**Developer & AI Tools:**
-Git, REST APIs, ROS2, Gazebo, Cursor, Claude Code
+- **ML & Modeling:** PyTorch, Scikit-learn, XGBoost, TensorFlow, Stable-Baselines3
+- **LLM & Agentic Systems:** LangChain, LangGraph, LangSmith, RAG, Prompt Engineering
+- **Vision & Robotics:** SmolVLA, LIBERO, YOLO, OpenCV, ROS2, Gazebo
+- **MLOps:** FastAPI, Docker, AWS, GCP, MLflow, CI/CD
+- **Data:** Pandas, NumPy, SPSS, Power BI
 
 ---
 
 ## 📝 Publications
 
-* **Action Space Design and Policy Optimization for Reinforcement Learning Based UAV Collision Avoidance in Earthquake Environments** *(Under Review)*
-* **Cost-effective SMD Detection on PCBs (2020)**
+- Iftikhar, B., Ahmad, R., Ghafoor, S., & Qazi, S. *Action Space Design and Policy Optimisation for Reinforcement Learning-Based UAV Collision Avoidance in Post-Earthquake Environments.* Under review, Elsevier.
+- Iftikhar, B. et al. (2020). *Cost-effective, Reliable, and Precise Surface Mount Device (SMD) on PCBs.* IOP Conference Series: Materials Science and Engineering.
 
 ---
 
 ## 🎯 Currently
 
-* Building **production ML + LLM systems**
-* Expanding into **ML system design and experiment-driven modeling**
-* Open to **Machine Learning Engineer roles (Canada 🇨🇦)**
+Applying to PhD programs in Europe, Canada, and the US, focused on reliability and generalization in multimodal/RL systems. Also open to research assistant roles and AI strategy consulting.
 
 ---
 
 ## 📫 Connect
 
-* LinkedIn: https://www.linkedin.com/in/bakhtawar-iftikhar/
-* Portfolio: https://bakhtawar-iftikhar.base44.app/
-* Email: [bkifti98@gmail.com](mailto:bkifti98@gmail.com)
+- LinkedIn: [linkedin.com/in/bakhtawar-iftikhar](https://www.linkedin.com/in/bakhtawar-iftikhar/)
+- Portfolio: [bakhtawar-iftikhar.base44.app](https://bakhtawar-iftikhar.base44.app/)
+- Email: bkifti98@gmail.com
 
 ---
 
-> Focused on building systems that move beyond prototypes into real-world impact.
+> Interested in why AI systems fail quietly, not just whether they work.
