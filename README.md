@@ -1,6 +1,6 @@
 # Hi, I'm Bakhtawar 👋
 
-**ML Engineer → PhD-bound researcher** working on reliability and generalization in multimodal and reinforcement learning systems
+**ML Engineer → PhD-bound researcher** working on reliability and generalization in multimodal and reinforcement learning systems | Open to Relocation
 
 ---
 
