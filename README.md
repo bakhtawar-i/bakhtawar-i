@@ -1,26 +1,27 @@
 # Hi, I'm Bakhtawar 👋
 
-**ML Engineer → PhD-bound researcher** working on reliability and generalization in multimodal and reinforcement learning systems | Open to Relocation
+**ML Engineer → PhD-bound researcher**, applying diagnostic methods across medical AI and robotics | Open to Relocation
 
 ---
 
 ## 🎯 What I Do
 
-I diagnose why multimodal and RL systems fail silently — grounding failures, distribution shift, miscalibrated confidence — and build the tools to catch it before deployment. My background is in shipping production ML systems; my current focus is applying the same rigor to understanding *why* they break.
+I look at cases where a model appears to work and doesn't — recent projects span seizure detection from EEG and grounding failures in a robot manipulation policy. My background is in shipping production ML systems; my current focus is figuring out why they break.
 
-- **VLA & Agentic System Diagnostics** (grounding, generalization, failure analysis)
-- **Reinforcement Learning** (policy optimization, action space design)
-- **Applied ML in Production** (LLM systems, RAG pipelines, real-time inference)
-
+- **Medical AI Diagnostics** (clinical signal analysis, seizure detection)
+- **VLA & Agentic System Diagnostics**
+- **Reinforcement Learning**
+- **Applied ML in Production**
+- 
 ---
 
 ## 🔬 Research
 
+**eeg-seizure-fusion-probe** *(in progress)*
+Seizure detection on CHB-MIT using LaBraM fine-tuning and metadata fusion diagnostics.
+
 **vla-grounding-probe**
 Mechanistic layer-wise diagnostic of a vision-language-action model on manipulation tasks. Found language embedding similarity running inverse to grounded conditioning predictions in a majority of tested tasks — validated against CLIP-family affirmation bias literature.
-
-**eeg-seizure-fusion-probe** *(in progress)*
-Extending the same diagnostic methodology to clinical AI: EEG seizure detection using LaBraM fine-tuning and metadata fusion diagnostics.
 
 **Action Space Design and Policy Optimisation for RL-Based UAV Collision Avoidance** *(MSc thesis, under review — Elsevier)*
 Controlled factorial study (PPO vs. SAC × 3 action spaces × 3 reward densities, 54 runs) diagnosing SAC's catastrophic failure on hybrid action spaces, traced to its entropy auto-tuning mechanism.
@@ -59,7 +60,7 @@ FiLM vs. concat fusion comparison in MiniGrid — naive concatenation caused lan
 
 ## 🎯 Currently
 
-Applying to PhD programs in Europe, Canada, and the US, focused on reliability and generalization in multimodal/RL systems. Also open to research assistant roles and AI strategy consulting.
+Applying to PhD programs in Europe, Canada, and the US, focused on medical AI and robotics/embodied AI. Also open to research assistant roles and AI strategy consulting.
 
 ---
 
