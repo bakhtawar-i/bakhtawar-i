@@ -18,7 +18,7 @@ I look at cases where a model appears to work and doesn't — recent projects sp
 ## 🔬 Research
 
 **eeg-seizure-fusion-probe** *(in progress)*
-Seizure detection on CHB-MIT using LaBraM fine-tuning and metadata fusion diagnostics.
+EEG seizure detection on CHB-MIT, benchmarking a feature-based GBM baseline against fine-tuned EEG foundation models (LaBraM, BENDR, NeuroGPT). Baseline GBM with expanded spectral/wavelet/cross-channel features reaches AUC-PR 0.174 (sensitivity 0.34 @ 34 FA/hr) on a held-out patient split. Currently fine-tuning LaBraM on CHB-MIT to test whether documented epilepsy-detection underperformance in foundation models replicates under a from-scratch pipeline; BENDR and NeuroGPT comparisons planned next.
 
 **vla-grounding-probe**
 Mechanistic layer-wise diagnostic of a vision-language-action model on manipulation tasks. Found language embedding similarity running inverse to grounded conditioning predictions in a majority of tested tasks — validated against CLIP-family affirmation bias literature.
