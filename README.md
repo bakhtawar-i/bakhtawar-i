@@ -1,6 +1,6 @@
 # Hi, I'm Bakhtawar 👋
 
-**ML Engineer → PhD-bound researcher**, applying diagnostic methods across medical AI and robotics | Open to Relocation
+**ML Engineer**, applying diagnostic methods across medical AI and robotics | Open to Relocation
 
 ---
 
@@ -60,7 +60,7 @@ FiLM vs. concat fusion comparison in MiniGrid — naive concatenation caused lan
 
 ## 🎯 Currently
 
-Applying to PhD programs in Europe, Canada, and the US, focused on medical AI and robotics/embodied AI. Also open to research assistant roles and AI strategy consulting.
+Focused on exploring opportunities in health-tech and medical AI. Also open to research assistant roles and AI strategy consulting.
 
 ---
 
