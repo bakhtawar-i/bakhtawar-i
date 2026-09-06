@@ -12,7 +12,6 @@ I look at cases where a model appears to work and doesn't — recent projects sp
 - **VLA & Agentic System Diagnostics**
 - **Reinforcement Learning**
 - **Applied ML in Production**
-- 
 ---
 
 ## 🔬 Research
