@@ -1,74 +1,38 @@
 # Hi, I'm Bakhtawar 👋
 
-**ML Engineer**, applying diagnostic methods across medical AI and robotics | Open to Relocation
+**AI engineer and two-time founder** building deployed AI systems: RAG pipelines, LLM agents and production ML APIs. Based in Dubai, UAE.
 
----
+I've shipped ML pipelines to production, supported enterprise customers on live systems, and launched two products solo. I'm now looking for AI engineering roles where I can build and deliver workflow automation for real clients.
 
-## 🎯 What I Do
+## 🚀 Founder work
 
-I look at cases where a model appears to work and doesn't — recent projects span seizure detection from EEG and grounding failures in a robot manipulation policy. My background is in shipping production ML systems; my current focus is figuring out why they break.
+- **[Sajaa](https://sajaa-app.vercel.app/)** – AI-assisted journaling and reflection platform. Built solo in 6 weeks; reached **400+ organic sign-ups and 600+ logged reflections within 5 weeks of launch**, with a **~70% repeat rate** driven by a sentiment-aware memory feature that carries context across sessions.
+- **[Guftagoo](https://guftagoo-guftagoo.vercel.app/)** – Mentorship and referral platform. Recruited **20+ founding mentors** from MBB, Big 4 and leading Islamabad software houses (**74% conversion, 20 of 27 approached**) and reached **70+ mentee sign-ups and 5 mentor-mentee introductions** within weeks of launching.
 
-- **Medical AI Diagnostics** (clinical signal analysis, seizure detection)
-- **VLA & Agentic System Diagnostics**
-- **Reinforcement Learning**
-- **Applied ML in Production**
----
+## 🛠️ Applied AI & engineering
+
+- **[Lexis](https://github.com/bakhtawar-i/Lexis)** – Production-grade AI document intelligence platform for government and enterprise use cases: a full RAG pipeline, a conversational research agent and a policy document assistant.
+- **[QuantVol](https://github.com/bakhtawar-i/QuantVol)** – End-to-end S&P 500 volatility forecasting platform: HAR-RV, GARCH, LightGBM and XGBoost compared with walk-forward validation, SHAP interpretability, MLflow tracking, and a containerised FastAPI + Streamlit deployment.
+- **[Multimodal Agentic RL System](https://github.com/bakhtawar-i/Multimodal_Agentic_RL_System)** – Instruction-conditioned RL agent extended with LLM-based planning and verification, deployed on AWS with FastAPI and Docker. FiLM fusion raised instruction-following from 55% to 67–90% over naive concatenation.
 
 ## 🔬 Research
 
-**eeg-seizure-fusion-probe** *(in progress)*
-EEG seizure detection on CHB-MIT, benchmarking a feature-based GBM baseline against fine-tuned EEG foundation models (LaBraM, BENDR, NeuroGPT). Baseline GBM with expanded spectral/wavelet/cross-channel features reaches AUC-PR 0.174 (sensitivity 0.34 @ 34 FA/hr) on a held-out patient split. Currently fine-tuning LaBraM on CHB-MIT to test whether documented epilepsy-detection underperformance in foundation models replicates under a from-scratch pipeline; BENDR and NeuroGPT comparisons planned next.
+- **UAV collision avoidance (MSc thesis, under review at Elsevier)** – Benchmarked PPO and SAC across 15+ simulated post-earthquake scenarios, reaching an **85% task success rate and 73% fewer collisions than an A\* baseline**. Discrete action spaces outperformed continuous and hybrid ones.
+- **[Postoperative-Sepsis-EWS](https://github.com/bakhtawar-i/Postoperative-Sepsis-EWS)** – Early-warning system on MIMIC-IV with Sepsis-3 labelling, qSOFA/NEWS2 baselines and a nurse's-station alert dashboard. Research prototype, not a clinical tool.
+- **[Chest-CT-ZeroShot-Benchmark](https://github.com/bakhtawar-i/Chest-CT-ZeroShot-Benchmark)** – Zero-shot CT classification comparing a 3D-native model with a 2D baseline.
 
-**vla-grounding-probe**
-Mechanistic layer-wise diagnostic of a vision-language-action model on manipulation tasks. Found language embedding similarity running inverse to grounded conditioning predictions in a majority of tested tasks — validated against CLIP-family affirmation bias literature.
+## 💼 Experience
 
-**Action Space Design and Policy Optimisation for RL-Based UAV Collision Avoidance** *(MSc thesis, under review — Elsevier)*
-Controlled factorial study (PPO vs. SAC × 3 action spaces × 3 reward densities, 54 runs) diagnosing SAC's catastrophic failure on hybrid action spaces, traced to its entropy auto-tuning mechanism.
+- **Machine Learning Engineer, Scoutrex** – Raised bowling-action error-detection accuracy by 25% and cut deployment cycles from 7 to 5 days by automating ML CI/CD on GCP.
+- **Technical Support Engineer, Motive** – Supported 50+ enterprise fleets through live IoT telemetry (Datadog, Grafana): 30+ complex escalations weekly at 98%+ SLA, plus SOPs and training that cut new-hire onboarding time by 25%.
 
-**Multimodal Agentic RL System**
-FiLM vs. concat fusion comparison in MiniGrid — naive concatenation caused language to be ignored (55% instruction-following), FiLM improved to 67–90%, but 0% on novel unseen instructions. Confidence scores found uninformative.
+## 🧰 Stack
 
----
-
-## 🚀 Applied Work
-
-**Lexis** — Production-grade AI document intelligence platform combining a full RAG pipeline, conversational research agent, and policy document assistant for government/enterprise use.
-
-**Sakeenah** — AI-assisted journaling platform (founder), live at [sakeenah-journal.vercel.app](https://sakeenah-journal.vercel.app/), ~20 active users.
-
-**QuantVol** — Time-series forecasting system for equity volatility, benchmarking econometric models against ML/deep learning approaches.
-
----
-
-## 🛠️ Tech Stack
-
-- **ML & Modeling:** PyTorch, Scikit-learn, XGBoost, TensorFlow, Stable-Baselines3
-- **LLM & Agentic Systems:** LangChain, LangGraph, LangSmith, RAG, Prompt Engineering
-- **Vision & Robotics:** SmolVLA, LIBERO, YOLO, OpenCV, ROS2, Gazebo
-- **MLOps:** FastAPI, Docker, AWS, GCP, MLflow, CI/CD
-- **Data:** Pandas, NumPy, SPSS, Power BI
-
----
-
-## 📝 Publications
-
-- Iftikhar, B., Ahmad, R., Ghafoor, S., & Qazi, S. *Action Space Design and Policy Optimisation for Reinforcement Learning-Based UAV Collision Avoidance in Post-Earthquake Environments.* Under review, Elsevier.
-- Iftikhar, B. et al. (2020). *Cost-effective, Reliable, and Precise Surface Mount Device (SMD) on PCBs.* IOP Conference Series: Materials Science and Engineering.
-
----
-
-## 🎯 Currently
-
-Focused on exploring opportunities in health-tech and medical AI. Also open to research assistant roles and AI strategy consulting.
-
----
+**LLM & Agents:** LangChain, LangGraph, LangSmith, RAG, prompt engineering
+**APIs & MLOps:** Python, FastAPI, Docker, AWS, GCP, MLflow, CI/CD
+**ML:** PyTorch, scikit-learn, XGBoost, TensorFlow, Stable-Baselines3
+**Data:** Pandas, NumPy, Power BI
 
 ## 📫 Connect
 
-- LinkedIn: [linkedin.com/in/bakhtawar-iftikhar](https://www.linkedin.com/in/bakhtawar-iftikhar/)
-- Portfolio: [bakhtawar-iftikhar.base44.app](https://bakhtawar-iftikhar.base44.app/)
-- Email: bkifti98@gmail.com
-
----
-
-> Interested in why AI systems fail quietly, not just whether they work.
+[LinkedIn](https://linkedin.com/in/bakhtawar-iftikhar) · [Portfolio](https://bakhtawar-iftikhar.base44.app) · bkifti98@gmail.com
